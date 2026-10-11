@@ -1,15 +1,20 @@
 function Home() {
+  const name = "Pheniline Jerono";
+  const profession = "Electrical Engineer & Full Stack Web Developer";
+
   return (
     <main>
-      <h1>PHENILINE JERONO</h1>
-      <h2>I am Electrical Engineer & Full stack Web Developer.</h2>
-      <p>
-        {" "}
-        I'm passionate about building technology that solves real-world problems
-        through software, engineering, and AI.
-      </p>
+      <nav>
+        <a href="#home">Pheniline</a>
 
-      <button>Explore My Projects</button>
+        <div>
+          <a href="#home">Home</a>
+          <a href="#about">About me</a>
+          <a href="#projects">Projects</a>
+          <a href="#skils">Technological Stack</a>
+          <a href="contact">Contact</a>
+        </div>
+      </nav>
     </main>
   );
 }
