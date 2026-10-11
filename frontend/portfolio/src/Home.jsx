@@ -1,6 +1,8 @@
+import " ./App.css";
 function Home() {
   const name = "Pheniline Jerono";
   const profession = "Electrical Engineer & Full Stack Web Developer";
+  /* The name & Profession variables */
 
   return (
     <main>
