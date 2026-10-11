@@ -1,4 +1,4 @@
-import " ./App.css";
+import "./App.css";
 function Home() {
   const name = "Pheniline Jerono";
   const profession = "Electrical Engineer & Full Stack Web Developer";
@@ -13,12 +13,12 @@ function Home() {
           <a href="#home">Home</a>
           <a href="#about">About me</a>
           <a href="#projects">Projects</a>
-          <a href="#skils">Technological Stack</a>
+          <a href="#skills">Technological Stack</a>
           <a href="contact">Contact</a>
         </div>
       </nav>
 
-      <section id="Home">
+      <section id="home">
         <p>I'm </p>
         <h1>{name}</h1>
         <h2>{profession}</h2>
@@ -35,4 +35,4 @@ function Home() {
     </main>
   );
 }
-export default App;
+export default Home;
