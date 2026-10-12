@@ -1,3 +1,11 @@
+. {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html {
+  scroll-behavior: smooth;
+}
 body {
   margin: 0;
   background-color: #0b1120;
@@ -8,10 +16,25 @@ body {
 main {
   min-height: 100vh;
 }
-
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 25px 8%;
+  border-bottom: 1px solid #1e293b;
+}
 nav a {
-  color: #f8fafc;
-  text-decoration: none;
+  color: #2dd4bf;
+  font-size: 20px;
+  font-weight: bold;
+}
+nav div {
+  display: flex;
+  gap: 25px;
+}
+
+nav div a {
+  color: #2dd4bf;
 }
 .hero h2 {
   font-size: 24px;

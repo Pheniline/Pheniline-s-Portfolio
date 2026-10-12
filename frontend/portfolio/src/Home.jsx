@@ -7,14 +7,14 @@ function Home() {
   return (
     <main>
       <nav>
-        <a href="#home">Pheniline</a>
+        <a href="#home">PHENILINE JERONO KEMBOI</a>
 
         <div>
-          <a href="#home">Home</a>
-          <a href="#about">About me</a>
-          <a href="#projects">Projects</a>
-          <a href="#skills">Technological Stack</a>
-          <a href="contact">Contact</a>
+          <a href="#home">HOME</a>
+          <a href="#about">ABOUT ME</a>
+          <a href="#projects">PROJECTS</a>
+          <a href="#skills">TECHNOLOGICAL STACK</a>
+          <a href="contact">CONTACT</a>
         </div>
       </nav>
 
