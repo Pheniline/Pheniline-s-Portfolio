@@ -19,6 +19,18 @@ function Home() {
       </nav>
 
       <section id="home">
+        <div className="float-shapes" aria-hidden="true">
+          <span className="orb orb-one"></span>
+          <span className="orb orb-two"></span>
+          <span className="orb orb-three"></span>
+          <span className="chrome-ring"></span>
+        </div>
+        <div className="float-shapes" aria-hidden="true">
+          <span className="orb orb-one"></span>
+          <span className="orb orb-two"></span>
+          <span className="orb orb-three"></span>
+          <span className="chrome-ring"></span>
+        </div>
         <p>I'm </p>
         <h1>{name}</h1>
         <h2>{profession}</h2>

@@ -165,3 +165,148 @@ nav div a:hover {
     letter-spacing: -1px;
   }
 }
+
+/* CYBER BADDIE: FLOATING SHAPES */
+
+#home {
+  position: relative;
+  overflow: hidden;
+  isolation: isolate;
+}
+
+#home > *:not(.float-shapes) {
+  position: relative;
+  z-index: 1;
+}
+
+.float-shapes {
+  position: absolute;
+  inset: 0;
+  z-index: 0;
+  pointer-events: none;
+  overflow: hidden;
+}
+
+.orb {
+  position: absolute;
+  display: block;
+  border-radius: 50%;
+  animation: float 7s ease-in-out infinite;
+}
+
+/* Large soft rose orb */
+.orb-one {
+  width: 180px;
+  height: 180px;
+  top: 12%;
+  right: 12%;
+  background: radial-gradient(circle at 30% 30%, #fffaf8, #d6a6ad 45%, #b76e79);
+  opacity: 0.55;
+  filter: blur(1px);
+}
+
+/* Smaller mocha-toned orb */
+.orb-two {
+  width: 85px;
+  height: 85px;
+  right: 35%;
+  bottom: 15%;
+  background: radial-gradient(circle at 30% 30%, #ffebe8, #b76e79 55%, #6b4f52);
+  opacity: 0.65;
+  animation-delay: -2s;
+}
+
+/* Subtle translucent orb */
+.orb-three {
+  width: 55px;
+  height: 55px;
+  top: 20%;
+  right: 42%;
+  background: linear-gradient(135deg, #fffaf8, #d6a6ad, #6b4f52);
+  opacity: 0.7;
+  animation-delay: -4s;
+}
+
+/* Chrome-inspired ring */
+.chrome-ring {
+  position: absolute;
+  width: 115px;
+  height: 115px;
+  right: 22%;
+  top: 38%;
+  border: 9px solid transparent;
+  border-radius: 50%;
+  background:
+    linear-gradient(#f4e9e8, #f4e9e8) padding-box,
+    linear-gradient(135deg, #fffaf8, #b76e79, #6b4f52, #fffaf8) border-box;
+  opacity: 0.75;
+  animation: float 9s ease-in-out infinite reverse;
+}
+
+/* Movement */
+@keyframes float {
+  0%,
+  100% {
+    transform: translateY(0) rotate(0deg);
+  }
+
+  50% {
+    transform: translateY(-22px) rotate(8deg);
+  }
+}
+
+/* Keep the effects subtle on phones */
+@media (max-width: 700px) {
+  .orb-one {
+    width: 110px;
+    height: 110px;
+    right: 5%;
+    top: 8%;
+  }
+
+  .orb-two {
+    width: 55px;
+    height: 55px;
+    right: 8%;
+    bottom: 10%;
+  }
+
+  .orb-three {
+    width: 35px;
+    height: 35px;
+    right: 35%;
+  }
+
+  .chrome-ring {
+    width: 65px;
+    height: 65px;
+    right: 8%;
+    top: 42%;
+    border-width: 6px;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .orb,
+  .chrome-ring {
+    animation: none;
+  }
+}
+body {
+  background-color: var(--color-background);
+  background-image:
+    radial-gradient(
+      circle at 85% 15%,
+      rgba(214, 166, 173, 0.24),
+      transparent 32%
+    ),
+    radial-gradient(
+      circle at 10% 80%,
+      rgba(183, 110, 121, 0.12),
+      transparent 30%
+    );
+
+  color: var(--color-text);
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+}
