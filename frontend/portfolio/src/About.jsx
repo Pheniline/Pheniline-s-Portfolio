@@ -11,11 +11,24 @@ function About() {
         </br>
       </h2>
 
-      <p className="description">
+      <p className="about-description">
         I'm an Electrical Engineering student and aspiring Full Stack Developer
         passionate about technology, intelligent systems, and solving real-world
         problems.
       </p>
+
+      <p className="about-description">
+        I enjoy exploring the intersection of electrical engineering, software
+        development, and AI to create practical solutions with real impact.
+      </p>
+
+      <div className="about-tags">
+        <span>Electrical Engineering</span>
+        <span>Full Stack Development</span>
+        <span>AI Enthusiast</span>
+        <span>Innovation</span>
+      </div>
     </section>
   );
 }
+export default About;
