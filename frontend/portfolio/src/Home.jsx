@@ -22,7 +22,7 @@ function Home() {
             <a href="#home">HOME</a>
             <a href="#about">ABOUT ME</a>
             <a href="#projects">PROJECTS</a>
-            <a href="#skills">TECHNOLOGICAL STACK</a>
+            <a href="#techstack">TECHNOLOGICAL STACK</a>
             <a href="#contact">CONTACT</a>
           </div>
         </nav>
