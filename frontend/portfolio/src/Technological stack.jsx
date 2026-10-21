@@ -4,7 +4,7 @@ const techGroups = [
   {
     title: "FRONTEND",
     subtitle: "THE VISUAL EXPERIENCE",
-    icon: "✧",
+
     className: "frontend",
     technologies: [
       { name: "HTML5", symbol: "5", level: "Core" },
@@ -17,7 +17,7 @@ const techGroups = [
   {
     title: "BACKEND ",
     subtitle: "POWERING THE LOGIC",
-    icon: "⌘",
+
     className: "backend",
     technologies: [
       { name: "Node.js", symbol: "⬡", level: "Core" },
@@ -29,7 +29,7 @@ const techGroups = [
   {
     title: "ENGINEERING LAB",
     subtitle: "BEYOND THE SCREEN",
-    icon: "ϟ",
+
     className: "engineering",
     technologies: [
       { name: "Python", symbol: "Py", level: "Developing" },
