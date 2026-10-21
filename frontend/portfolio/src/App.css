@@ -1,24 +1,28 @@
 /* ========================================
-   PORTFOLIO THEME: WARM DARK
-   Charcoal • Amber • Gold
+   PORTFOLIO THEME: DREAMY PLUM
+   Deep Plum • Pink • Lilac
 ======================================== */
+
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600;700&family=Poppins:wght@400;500;600&display=swap");
 
 /* 0. THEME VARIABLES (edit only this block to re-theme) */
 
 :root {
-  --color-bg: #141210;
-  --color-surface: #1d1a16;
-  --color-border: rgba(251, 191, 36, 0.15);
-  --color-text: #f5efe6;
-  --color-muted: #a39a8c;
-  --color-primary: #f59e0b;
-  --color-accent: #fbbf24;
-  --color-on-primary: #1a1204;
+  --color-bg: #1a1020;
+  --color-surface: #251730;
+  --color-border: rgba(244, 114, 182, 0.2);
+  --color-text: #fdf2f8;
+  --color-muted: #c4a3bd;
+  --color-primary: #f472b6;
+  --color-accent: #f9a8d4;
+  --color-on-primary: #3b0a24;
+  --color-lilac: #c084fc;
 
-  --primary-rgb: 245, 158, 11;
-  --accent-rgb: 251, 191, 36;
-  --bg-rgb: 20, 18, 16;
-  --surface-rgb: 29, 26, 22;
+  --primary-rgb: 244, 114, 182;
+  --accent-rgb: 249, 168, 212;
+  --bg-rgb: 26, 16, 32;
+  --surface-rgb: 37, 23, 48;
+  --lilac-rgb: 168, 85, 247;
 
   --radius-button: 999px;
 }
@@ -40,10 +44,10 @@ body {
   background: var(--color-bg);
   color: var(--color-text);
   font-family:
+    "Poppins",
     system-ui,
     -apple-system,
     "Segoe UI",
-    Roboto,
     sans-serif;
   line-height: 1.6;
   -webkit-font-smoothing: antialiased;
@@ -74,8 +78,8 @@ nav a {
 nav > a {
   color: var(--color-accent);
   font-size: 21px;
-  font-weight: 800;
-  letter-spacing: -0.6px;
+  font-weight: 700;
+  letter-spacing: -0.3px;
 }
 
 nav div {
@@ -106,6 +110,18 @@ nav div a:hover {
   position: relative;
   overflow: hidden;
   isolation: isolate;
+
+  background:
+    radial-gradient(
+      circle at 85% 35%,
+      rgba(var(--primary-rgb), 0.14),
+      transparent 40%
+    ),
+    radial-gradient(
+      circle at 10% 90%,
+      rgba(var(--lilac-rgb), 0.12),
+      transparent 40%
+    );
 }
 
 #home > * {
@@ -117,10 +133,11 @@ nav div a:hover {
   max-width: 900px;
   margin: 12px 0;
   color: var(--color-text);
+  font-family: "Playfair Display", Georgia, serif;
   font-size: clamp(42px, 7vw, 76px);
-  font-weight: 800;
+  font-weight: 700;
   line-height: 1.1;
-  letter-spacing: -2px;
+  letter-spacing: -0.5px;
 }
 
 #home h2 {
@@ -282,7 +299,7 @@ nav div a:hover {
   margin-bottom: 22px;
   color: var(--color-accent);
   font-size: 12px;
-  font-weight: 700;
+  font-weight: 600;
   letter-spacing: 3px;
 }
 
@@ -290,14 +307,18 @@ nav div a:hover {
   max-width: 800px;
   margin-bottom: 26px;
   color: var(--color-text);
+  font-family: "Playfair Display", Georgia, serif;
   font-size: clamp(32px, 4vw, 52px);
   line-height: 1.2;
-  letter-spacing: -1.5px;
+  letter-spacing: -0.5px;
 }
 
 .about-section h2 span {
   display: block;
-  color: var(--color-accent);
+  background: linear-gradient(90deg, var(--color-primary), var(--color-lilac));
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
 }
 
 .about-description {
@@ -403,7 +424,6 @@ nav div a:hover {
   }
 
   #home h1 {
-    letter-spacing: -1px;
     overflow-wrap: anywhere;
   }
 
