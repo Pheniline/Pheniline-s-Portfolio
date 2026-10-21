@@ -2,7 +2,7 @@ import "./App.css";
 
 const techGroups = [
   {
-    title: "Frontend Magic",
+    title: "FRONTEND",
     subtitle: "THE VISUAL EXPERIENCE",
     icon: "✧",
     className: "frontend",
@@ -15,7 +15,7 @@ const techGroups = [
     ],
   },
   {
-    title: "Backend Universe",
+    title: "BACKEND ",
     subtitle: "POWERING THE LOGIC",
     icon: "⌘",
     className: "backend",
@@ -27,7 +27,7 @@ const techGroups = [
     ],
   },
   {
-    title: "Engineering Lab",
+    title: "ENGINEERING LAB",
     subtitle: "BEYOND THE SCREEN",
     icon: "ϟ",
     className: "engineering",
@@ -56,8 +56,7 @@ function TechStack() {
 
           <p>
             The tools, languages, and technologies I use to turn curious ideas
-            into digital experiences. Every new skill unlocks another
-            possibility.
+            into digital experiences.
           </p>
         </header>
 
@@ -67,10 +66,9 @@ function TechStack() {
           <div className="tech-orbit orbit-c" />
 
           <div className="tech-core">
-            <span className="core-sparkle">✧</span>
             <span className="core-title">MY</span>
-            <span className="core-main">TECH</span>
-            <span className="core-caption">UNIVERSE</span>
+            <span className="core-main">TECH </span>
+            <span className="core-caption">STACK</span>
           </div>
 
           {techGroups.map((group, index) => (
