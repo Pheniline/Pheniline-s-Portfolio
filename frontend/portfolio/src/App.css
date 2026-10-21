@@ -2033,3 +2033,29 @@ nav div a:hover {
     transform: none;
   }
 }
+:root {
+  /* Backgrounds */
+  --color-bg: #111827;
+  --color-surface: #1f2937;
+  --color-border: rgba(148, 163, 184, 0.2);
+
+  /* Typography */
+  --color-text: #f3f4f6;
+  --color-muted: #9ca3af;
+
+  /* Signature accents */
+  --color-primary: #2dd4bf;
+  --color-accent: #5eead4;
+  --color-on-primary: #0f172a;
+  --color-lilac: #fb923c;
+
+  /* Effects */
+  --primary-rgb: 45, 212, 191;
+  --accent-rgb: 94, 234, 212;
+  --bg-rgb: 17, 24, 39;
+  --surface-rgb: 31, 41, 55;
+  --lilac-rgb: 251, 146, 60;
+
+  /* Shape */
+  --radius-button: 12px;
+}

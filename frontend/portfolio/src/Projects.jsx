@@ -133,7 +133,7 @@ function Projects() {
 
         <footer className="projects-footer">
           <span />
-          <p>MADE WITH CURIOSITY & A LITTLE MAGIC</p>
+          <p>MY PROJECTS</p>
           <span />
         </footer>
       </div>
