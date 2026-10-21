@@ -65,9 +65,7 @@ function Projects() {
             <span className="projects-label-dot" />A LITTLE OF WHAT I CREATE
           </span>
 
-          <h2>
-            My Creative <span>Universe</span>
-          </h2>
+          <h2>My Projects</h2>
 
           <p>
             Every project is an opportunity to experiment, learn something new,

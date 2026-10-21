@@ -87,8 +87,6 @@ function Contact() {
         <div className="contact-layout">
           <div className="contact-info reveal">
             <div className="contact-note">
-              <span className="contact-note-icon">✧</span>
-
               <div>
                 <h3>Have a little idea?</h3>
                 <p>
@@ -119,19 +117,12 @@ function Contact() {
                 </a>
               ))}
             </div>
-
-            <div className="contact-signature">
-              <span>MADE WITH</span>
-              <span className="signature-heart">♥</span>
-              <span>AND A LITTLE MAGIC</span>
-            </div>
           </div>
 
           <form className="contact-form reveal" onSubmit={handleSubmit}>
             <div className="contact-form-header">
-              <span className="form-sparkle">✦</span>
               <div>
-                <h3>Send a little hello</h3>
+                <h3>Want to get in touch?</h3>
                 <p>Fill in the details below to get in touch.</p>
               </div>
             </div>
@@ -196,12 +187,6 @@ function Contact() {
             </p>
           </form>
         </div>
-
-        <footer className="contact-footer">
-          <span className="contact-footer-line" />
-          <p>UNTIL THEN, KEEP DREAMING IN COLOUR.</p>
-          <span className="contact-footer-line" />
-        </footer>
       </div>
     </section>
   );
