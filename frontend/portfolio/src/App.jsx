@@ -1,6 +1,7 @@
 import Home from "./Home";
 import About from "./About";
 import useReveal from "./useReveal";
+import Projects from "./Projects";
 
 function App() {
   useReveal();
@@ -9,6 +10,7 @@ function App() {
     <main>
       <Home />
       <About />
+      <Projects />
     </main>
   );
 }
