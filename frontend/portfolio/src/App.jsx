@@ -3,6 +3,7 @@ import About from "./About";
 import useReveal from "./useReveal";
 import Projects from "./Projects";
 import TechStack from "./Technological stack";
+import Contact from "./Contact";
 
 function App() {
   useReveal();
@@ -13,6 +14,7 @@ function App() {
       <About />
       <Projects />
       <TechStack />
+      <Contact />
     </main>
   );
 }
