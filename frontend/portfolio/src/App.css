@@ -368,7 +368,8 @@ nav div a:hover {
 }
 
 .tag-two,
-.tag-four {
+.tag-four,
+.tag-six {
   margin-left: 28px;
 }
 
@@ -439,7 +440,8 @@ nav div a:hover {
   }
 
   .tag-two,
-  .tag-four {
+  .tag-four,
+  .tag-six {
     margin-left: 15px;
   }
 }

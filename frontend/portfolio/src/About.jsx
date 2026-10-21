@@ -30,19 +30,34 @@ function About() {
 
         <div className="neon-tag tag-two">
           <span className="tag-number">02</span>
-          <span>Full Stack Developer</span>
+          <span>Frontend Development</span>
           <span className="tag-dot"></span>
         </div>
 
         <div className="neon-tag tag-three">
           <span className="tag-number">03</span>
-          <span>Artificial Intelligence</span>
+          <span>Modern Wed Development</span>
           <span className="tag-dot"></span>
         </div>
 
         <div className="neon-tag tag-four">
           <span className="tag-number">04</span>
-          <span>Tech Innovation</span>
+          <span>Backend Development</span>
+          <span className="tag-dot"></span>
+        </div>
+        <div className="neon-tag tag-five">
+          <span className="tag-number">05</span>
+          <span>Databases & Data</span>
+          <span className="tag-dot"></span>
+        </div>
+        <div className="neon-tag tag-six">
+          <span className="tag-number">06</span>
+          <span>Programming & Problem solving</span>
+          <span className="tag-dot"></span>
+        </div>
+        <div className="neon-tag tag-seven">
+          <span className="tag-number">07</span>
+          <span>UI/UX Design</span>
           <span className="tag-dot"></span>
         </div>
 

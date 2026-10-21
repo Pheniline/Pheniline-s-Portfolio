@@ -1,7 +1,8 @@
 import useTyping from "./useTyping";
 
-const name = "Pheniline Jerono";
-const profession = "Electrical Engineer & Full Stack Web Developer";
+const name = "Pheniline Jerono Kemboi";
+const profession =
+  "Electrical Engineer | Full Stack Web Developer | AI Engineer";
 
 function Home() {
   const typed = useTyping(profession, 55);
